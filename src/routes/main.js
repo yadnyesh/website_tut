@@ -8,4 +8,8 @@ routes.get("/", (req, res) => {
     res.send("This message is served from routes")
 })
 
+routes.get("/gallery", (req, res) => {
+    res.send("This message is served from gallery")
+})
+
 module.exports=routes
