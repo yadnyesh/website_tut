@@ -1,0 +1,14 @@
+{
+  "name": "dynamic_website",
+  "version": "1.0.0",
+  "description": "learning freelancing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yadnyesh Bharat Juvekar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
