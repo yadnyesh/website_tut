@@ -11,6 +11,7 @@ app.use('', routes)
 
 app.set('view engine', 'hbs')
 app.set('views', 'views')
+hbs.registerPartials("views/partials")
 
 mongoose.connect("mongodb://localhost/admin", () => {
     console.log("Successfully connected to the database.")
