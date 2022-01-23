@@ -5,6 +5,7 @@ const hbs = require('hbs')
 
 const app = express()
 
+app.use('/static', express.static("public"))
 app.use('', routes)
 
 app.set('view engine', 'hbs')
