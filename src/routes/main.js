@@ -9,7 +9,7 @@ routes.get("/", (req, res) => {
 })
 
 routes.get("/gallery", (req, res) => {
-    res.send("This message is served from gallery")
+    res.render("gallery")
 })
 
 module.exports=routes
