@@ -5,7 +5,7 @@ const res = require('express/lib/response')
 const routes = express.Router()
 
 routes.get("/", (req, res) => {
-    res.send("This message is served from routes")
+    res.render("index")
 })
 
 routes.get("/gallery", (req, res) => {

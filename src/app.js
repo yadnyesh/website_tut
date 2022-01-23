@@ -7,7 +7,7 @@ const app = express()
 
 app.use('', routes)
 
-app.set('view-engine', 'hbs')
+app.set('view engine', 'hbs')
 app.set('views', 'views')
 
 app.get("/", (request, response) => {
